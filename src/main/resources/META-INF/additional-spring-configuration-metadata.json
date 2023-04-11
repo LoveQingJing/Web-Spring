@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "aliyun.template-code.login",
+      "type": "java.lang.String",
+      "description": "Description for aliyun.template-code.login."
+  }
+] }
