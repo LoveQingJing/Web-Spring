@@ -1,0 +1,31 @@
+server:
+  port: 8888
+spring:
+  # mysql配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_py?serverTimezone=GMT%2b8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 03120724dbb
+  data:
+    redis:
+      host: 47.113.147.74
+      password: 03120724dbb
+  cache:
+    type: redis
+mybatis-plus:
+  configuration: #配置日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl    #日志实现类
+    map-underscore-to-camel-case: true                       #驼峰转换
+    cache-enabled: true # 开启缓存
+    local-cache-scope: session # 缓存作用域为会话级别
+  type-aliases-package: com.example.demo.pojo               #实体类型别名
+
+aliyun:
+  access-key-Id: LTAI5t928zd798M4BGgs3wma
+  access-key-secret: G0o1FUARxwq94w1nGIOZM0LMYGO5Dr
+  region: cn-hangzhou #区域
+  template-code:
+    login: SMS_273845252 #code登录模板
+    register: SMS_273785235 #code注册模板
+  sign-name: 阿小初

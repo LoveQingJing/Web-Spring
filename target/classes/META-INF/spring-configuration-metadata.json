@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "aliyun",
+      "type": "com.example.demo.properties.AliyunProperties",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "template-code",
+      "type": "com.example.demo.properties.TemplateCode",
+      "sourceType": "com.example.demo.properties.TemplateCode"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.region",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.sign-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.template-code",
+      "type": "com.example.demo.properties.TemplateCode",
+      "sourceType": "com.example.demo.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.template-code.login",
+      "type": "java.lang.String",
+      "description": "Description for aliyun.template-code.login."
+    },
+    {
+      "name": "template-code.login",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.TemplateCode"
+    },
+    {
+      "name": "template-code.register",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.properties.TemplateCode"
+    }
+  ],
+  "hints": []
+}
